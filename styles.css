@@ -15,20 +15,32 @@ body {
   padding: 2rem;
 }
 
+.container {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+.nube-img {
+  width: 160px;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+}
+
 h1 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   border-bottom: 2px solid #4caf82;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
 }
 
 p {
   font-size: 1.05rem;
   color: #c8e6d4;
   line-height: 1.7;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 p:last-child {
